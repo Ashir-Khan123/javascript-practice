@@ -179,6 +179,9 @@
 // const multiple = (num1, num2) => num1 * num2
 // const res = multiple(3,7)
 // console.log(res);
-
+ 
 // -------------------------------------
 
+// const user = () => {name: "Ashir"} // undefined
+
+// const user = () => ({name: "Ashir"}); // object should be return in parenthesis ()
