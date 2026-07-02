@@ -42,3 +42,30 @@
 // }
 
 // greet();
+
+// --------------------------------------
+
+// function one() {
+//   let firstname = "Ashir";
+
+//   function two() {
+//     let lastname = "khan";
+//     console.log(firstname); 
+//   }
+// //   console.log(lastname); 
+// two();
+// }
+// one();
+
+// ---------------------------------------------------
+
+// if(true){
+//     let myName = "Ashir"
+//     if(myName == "Ashir"){
+//         let lastname = "Khan"
+//         console.log(`${myName} ${lastname}`);
+//     }
+//     // console.log(lastname);
+// }
+// console.log(myName);
+
