@@ -69,3 +69,37 @@
 // }
 // console.log(myName);
 
+// -----------------------------------------------------
+
+// greet()
+// function greet(){
+//     console.log("hi"); // hi
+// }
+
+// ----------------------------------------------------
+
+// greet()
+// const greet = function(){
+//     console.log("hi"); // ReferenceError: Cannot access 'greet' before initialization
+// }
+
+// ----------------------------------------------
+
+// const obj = {
+//     name : "Ashir",
+//     age : 22,
+//     userData : function(){
+//         // console.log(`Username is ${this.name} , age is ${this.age}`);
+//         // console.log(this); 
+//     }
+// }
+
+// obj.userData() // Username is Ashir , age is 22
+// obj.name = 'shakir'
+// obj.age = 25
+// obj.userData() // Username is shakir , age is 25
+
+// -------------------------------------------------------
+
+// console.log(this); // browser window (global environment)
+// Note : In node.js environment --> it gives empty braces {}

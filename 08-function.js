@@ -185,3 +185,27 @@
 // const user = () => {name: "Ashir"} // undefined
 
 // const user = () => ({name: "Ashir"}); // object should be return in parenthesis ()
+
+// ---------------------------------------------------
+
+// function hi(){
+//     let myname = "Ashir"
+//     console.log(myname); // undefined
+// }
+// hi()
+
+// -----------------------------------------
+
+// let hi = function(){
+//     let myname = "Ashir"
+//     console.log(this.myname); // undefined
+// }
+// hi()
+
+// ----------------------------------------------
+
+// let hi = () => {
+//     let myname = "Ashir"
+//     console.log(this); // undefined
+// }
+// hi()
