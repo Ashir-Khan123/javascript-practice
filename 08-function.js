@@ -161,8 +161,29 @@
 // IIFE (Immediately Invoked Function Expression)
 // ---------------------------------
 
+// used to prevent pollution/var declaration of global scope 
+// used ';' to terminate otherwise error occur 
+
 // (function(){
-//     console.log("Hi");
+//     console.log("Hi"); // Hi
+// })()
+
+// --------------------
+
+// (() => {
+//     console.log("Ashir"); // TypeError: (intermediate value)(...) is not a function (because of ;)
+// })()
+
+// ==================  Again try IIFE  ==================================
+
+// (function(){
+//     console.log("Hi"); //Hi
+// })();
+
+// // -------------------------------
+
+// (() => {
+//     console.log("Ashir"); // Ashir
 // })()
 
 // -------------------------------------
