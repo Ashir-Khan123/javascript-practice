@@ -174,3 +174,25 @@
 // else{
 //     console.log(`No discount, your amount is ${totalAmount}`);
 // }
+
+// ------------------------------------------------------
+// Ternary operator
+
+// let age = 22
+// age >= 18 ? console.log(`allow`) : console.log(`not allow`);
+
+// ----------------------------------------------
+// Nullish Colescing
+
+// used to prevent from null and undefined
+
+// let val1;
+// val1 = 5 ?? 10
+// console.log(val1); // 5
+// val1 = null ?? 10
+// console.log(val1) // 10
+// val1 = undefined ?? 40
+// console.log(val1) // 40
+// val1 = null ?? 20 ?? undefined ?? 9
+// console.log(val1); // 20 ---------> first value print
+ 
