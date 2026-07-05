@@ -1,4 +1,4 @@
-// Array 
+// Array
 
 // const myArr = [1,2,3,4,5]
 // console.log(myArr[0]); // 1
@@ -6,8 +6,8 @@
 // const strArr = ["Ashir", "shakir" ,"suhail", "hamza", "Ahmed"]
 // // console.log(strArr);
 // let pushArr = strArr.push("zain", "abbas")
-// console.log(pushArr); // return length of array   
-// console.log(strArr.pop()); // return remove element 
+// console.log(pushArr); // return length of array
+// console.log(strArr.pop()); // return remove element
 // console.log(strArr.unshift("ghufran")); // 7
 // console.log(strArr); // (7) ['ghufran', 'Ashir', 'shakir', 'suhail', 'hamza', 'Ahmed', 'zain']
 // console.log(strArr.shift()); // ghufran
@@ -23,9 +23,9 @@
 // const strArr = ["Ashir", "shakir" ,"suhail", "hamza", "Ahmed"]
 
 // console.log(strArr);
-// console.log(strArr.slice(1, 4)); // slice till -1 and copy of an original array 
+// console.log(strArr.slice(1, 4)); // slice till -1 and copy of an original array
 // console.log(strArr.splice(1,3)); // refrence of original array return remove elements ['shakir', 'suhail', 'hamza']
-// console.log(strArr); // ['Ashir', 'Ahmed'] 
+// console.log(strArr); // ['Ashir', 'Ahmed']
 // ----------------------------------------------------------------
 // const strArr1 = ["Ashir", "shakir" ,"suhail", "hamza", "Ahmed"]
 // const strArr2 = ["Ghufran" , "hashir" , "haseeb" , "taha"]
@@ -45,7 +45,7 @@
 // ==========================================
 
 // let arr = [1,2,3,[2,5], 6,5, [3,[4,5,2],6],9,2,1]
-// let oneArr = arr.flat(Infinity) // nested arr in one line 
+// let oneArr = arr.flat(Infinity) // nested arr in one line
 // console.log(oneArr);
 
 // console.log(Array.isArray("Ashir")); // false
@@ -66,7 +66,6 @@
 // console.log(sum);
 
 // console.log(`Average : ${sum / arr.length}`);
-
 
 // -----------------------------------------------
 
@@ -102,8 +101,8 @@
 // let secondLargest = 0
 // for(let i = 0 ; i < arr.length ; i++){
 //     if(arr[i] > largest){
-//         secondLargest = largest 
-//         largest = arr[i] 
+//         secondLargest = largest
+//         largest = arr[i]
 //     }
 //     else if(arr[i] > secondLargest && secondLargest < largest){
 //         secondLargest = arr[i]
@@ -112,7 +111,7 @@
 // console.log(largest);
 // console.log(secondLargest);
 
-// Second smallest number 
+// Second smallest number
 // =========================
 
 // let arr = [112,82,2,90,26,78,3]
@@ -173,7 +172,7 @@
 // console.log(`Max number : ${maxNum}`);
 // console.log(`Min number : ${minNum}`);
 
-// Reverse Array 
+// Reverse Array
 // =================
 
 // let arr = [1,2,3,4,5,6]
@@ -200,13 +199,17 @@
 // ========================
 
 // let arr = [1,0,3,0,5,0,8]
-// let last 
+// let zeros = []
+// let newArr;
 // for(let i = 0 ; i < arr.length ; i++){
-//     if(arr[i] == 0){
-//         console.log(arr[i]);
-//         // arr.push(arr[i])
+//     if(arr[i] == 0 && arr[i] != arr[arr.length - 1]){
+//         zeros = arr.splice(i, 1)
+//         newArr = arr.concat(zeros);
 //     }
+//     console.log(`New array : ${newArr}`);
 // }
-// console.log(arr);
+
+// ================================
+
 
 
