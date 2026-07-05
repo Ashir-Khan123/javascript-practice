@@ -198,18 +198,18 @@
 
 // ========================
 
-// let arr = [1,0,3,0,5,0,8]
-// let zeros = []
-// let newArr;
-// for(let i = 0 ; i < arr.length ; i++){
-//     if(arr[i] == 0 && arr[i] != arr[arr.length - 1]){
-//         zeros = arr.splice(i, 1)
-//         newArr = arr.concat(zeros);
-//     }
-//     console.log(`New array : ${newArr}`);
-// }
+let arr = [1,0,3,0,5,0,8]
+let zeros = []
+let newArr;
+for(let i = 0 ; i < arr.length ; i++){
+    if(arr[i] == 0 && arr[i] != arr[arr.length - 1]){
+        zeros = arr.splice(i, 1)
+        newArr = arr.concat(zeros);
+        console.log(newArr);
+    }
+    console.log(`New array : ${newArr}`);
+}
 
 // ================================
-
 
 
