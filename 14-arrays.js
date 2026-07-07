@@ -219,8 +219,39 @@
 // ================================
 
 
+// let arr = [1,2,2,3,4,4,4]
+// let newArr = []
+// let val
+// for(let i = 0 ; i < arr.length ; i++){
+//     let count = 1
+//     val = arr[i]
+//     if(!newArr.includes(val)){
+//         newArr.push(val)
+//     }
+//     else{
+//         newArr.push(val)
+//         count += 1
+//     }
+//     console.log(`New Array : ${newArr}`);
+//     console.log(`${val} repeated ${count} times`);
+//     console.log(`++++++++++++++++++++++++++++++++`);
+// }
 
 
+// ==================================
+
+let arr = [1,2,5]
+let missing;
+for (let i = 0; i < arr.length; i++) {
+    if(arr[i] != i + 1){
+        missing = i + 1
+        console.log(`${missing} is missing`);
+        i = arr[i-1]; 
+        console.log(i);
+    }      
+}
+
+// ===============================
 
 
 
