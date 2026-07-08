@@ -237,19 +237,22 @@
 // Removes duplicate
 // ================================
 
-// let arr = [4, 1, 2, 4, 3, 3, 5, 1, 6, 4];
+let arr = [4, 1, 2, 4, 3, 3, 5, 1, 6, 4];
 
-// for (let i = 0; i < arr.length; i++) { 
-//     if (arr[i] != arr[i + 1]) {
-//     let count = 0;
-//     for (let j = 0; j < arr.length; j++) {
-//       if (arr[i] == arr[j]) {
-//         count += 1;
-//       }
-//     }
-//     console.log(`${arr[i]} repeated ${count} times`);
-//   }
-// }
+for (let i = 0; i < arr.length; i++) { 
+    if (arr[i] != arr[i + 1]) {
+    let count = 0;
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] == arr[j]) {
+        count += 1;
+      }
+      if(j == (arr.length - 1)){
+            console.log(`hello ${j}`);
+        }
+    }
+    console.log(`${arr[i]} repeated ${count} times`);
+  }
+}
 
 // ----------------------------------------------------------
 
