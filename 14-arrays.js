@@ -81,6 +81,8 @@
 // }
 // console.log(largest); // 90
 
+// -----------------------------------------------------
+
 // Smallest Number
 // =================
 
@@ -92,6 +94,8 @@
 //     }
 // }
 // console.log(Smallest); // 2
+
+// --------------------------------------------------------
 
 // Second largest number
 // ========================
@@ -111,6 +115,8 @@
 // console.log(largest);
 // console.log(secondLargest);
 
+// ------------------------------------------------------
+
 // Second smallest number
 // =========================
 
@@ -129,6 +135,8 @@
 // console.log(Smallest);
 // console.log(secondSmallest);
 
+// ----------------------------------------------------
+
 // count even numbers
 // =======================
 
@@ -141,6 +149,8 @@
 // }
 // console.log(`Even numbers : ${countEven}`);
 
+// ---------------------------------------------------
+
 // count odd numbers
 // ===========================
 
@@ -152,6 +162,8 @@
 //     }
 // }
 // console.log(`Odd numbers : ${countOdd}`);
+
+// --------------------------------------------------
 
 //  Max Min number
 // ===================
@@ -171,6 +183,8 @@
 // }
 // console.log(`Max number : ${maxNum}`);
 // console.log(`Min number : ${minNum}`);
+
+// -----------------------------------------------
 
 // Reverse Array
 // =================
@@ -198,7 +212,9 @@
 
 // console.log(arr);
 
-// Zeros at last 
+// ------------------------------------------------------
+
+// Zeros at last
 // ========================
 
 // let arr = [1,0,3,0,5,0,8];
@@ -216,57 +232,63 @@
 // }
 // console.log(`final array : ${finalArr}`);
 
+// --------------------------------------------------------
+
+// Removes duplicate
 // ================================
 
+let arr = [4, 1, 2, 4, 3, 3, 5, 1, 6, 4];
 
-// let arr = [1,2,2,3,4,4,4]
-// let newArr = []
-// let val
-// for(let i = 0 ; i < arr.length ; i++){
-//     let count = 1
-//     val = arr[i]
-//     if(!newArr.includes(val)){
-//         newArr.push(val)
-//     }
-//     else{
-//         newArr.push(val)
-//         count += 1
-//     }
-//     console.log(`New Array : ${newArr}`);
-//     console.log(`${val} repeated ${count} times`);
-//     console.log(`++++++++++++++++++++++++++++++++`);
-// }
-
-
-// ==================================
-
-let arr = [1,2,5]
-let missing;
-for (let i = 0; i < arr.length; i++) {
-    if(arr[i] != i + 1){
-        missing = i + 1
-        console.log(`${missing} is missing`);
-        i = arr[i-1]; 
-        console.log(i);
-    }      
+for (let i = 0; i < arr.length; i++) { 
+    if (arr[i] != arr[i + 1]) {
+    let count = 0;
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] == arr[j]) {
+        count += 1;
+      }
+    }
+    console.log(`${arr[i]} repeated ${count} times`);
+  }
 }
 
+// ----------------------------------------------------------
+
+// Missing number
+// ==================================
+
+// let arr = [5 , 9 , 13 , 21 , 29] // 17 , 25
+
+// for (let i = 0; i < arr.length; i++) {
+//     let diff = arr[i + 1] - arr[i] // 4
+//     sum = arr[i] + diff
+//     if(arr[i + 1] == sum){
+//         console.log(`hello ${arr[i]}`);
+//     }
+// }
+
+// ----------------------------------------------------
+
+// Swapping using third variable
 // ===============================
 
+// let a = 10
+// let b = 4
+// let temp = a
+// a = b
+// b = temp
+// console.log(`a : ${a} , b : ${b}`);
 
+// -----------------------------------------------------
 
+// Swapping without third variable
+// ==============================
 
+// let a = 8
+// let b = 3
 
+// a = a + b  // 11
+// b = a - b // 8
+// a = a - b // 3
 
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(`a = ${a}`);
+// console.log(`b = ${b}`);
