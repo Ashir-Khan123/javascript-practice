@@ -237,37 +237,21 @@
 // Removes duplicate
 // ================================
 
-let arr = [4, 1, 2, 4, 3, 3, 5, 1, 6, 4];
-
-for (let i = 0; i < arr.length; i++) { 
-    if (arr[i] != arr[i + 1]) {
-    let count = 0;
-    for (let j = 0; j < arr.length; j++) {
-      if (arr[i] == arr[j]) {
-        count += 1;
-      }
-    //   console.log(`arr[j] ${arr[j]}`);
-    }
-    arr.splice()
-    // console.log(`=========================`);
-
-    // console.log(`${arr[i]} repeated ${count} times`);
-  }
-}
-
-// ----------------------------------------------------------
-
-// Missing number
-// ==================================
-
-// let arr = [5 , 9 , 13 , 21 , 29] // 17 , 25
-
+// let arr = [4, 1, 2, 4, 3, 3, 5, 1, 6, 4];
+// let processArr = [];
 // for (let i = 0; i < arr.length; i++) {
-//     let diff = arr[i + 1] - arr[i] // 4
-//     sum = arr[i] + diff
-//     if(arr[i + 1] == sum){
-//         console.log(`hello ${arr[i]}`);
+//   if (!processArr.includes(arr[i])) {
+//     let count = 0;
+//     for (let j = 0; j < arr.length; j++) {
+//       if (arr[i] == arr[j]) {
+//         count += 1;
+//       }
 //     }
+//     processArr.push(arr[i]);
+//     console.log(`${arr[i]} repeated ${count} times`);
+//   } else {
+//     continue;
+//   }
 // }
 
 // ----------------------------------------------------
