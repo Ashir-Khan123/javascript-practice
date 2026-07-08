@@ -246,11 +246,12 @@ for (let i = 0; i < arr.length; i++) {
       if (arr[i] == arr[j]) {
         count += 1;
       }
-      if(j == (arr.length - 1)){
-            console.log(`hello ${j}`);
-        }
+    //   console.log(`arr[j] ${arr[j]}`);
     }
-    console.log(`${arr[i]} repeated ${count} times`);
+    arr.splice()
+    // console.log(`=========================`);
+
+    // console.log(`${arr[i]} repeated ${count} times`);
   }
 }
 
