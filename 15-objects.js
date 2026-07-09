@@ -4,7 +4,7 @@
 // object literals
 // keys is treated as string by browser
 
-let sym1 = Symbol("12345")
+// let sym1 = Symbol("12345")
 
 const user = {
     name : "Ashir",
@@ -24,7 +24,7 @@ const user = {
 // console.log(user);
 
 // console.log(typeof user.sym1); // type string not symbol
-console.log(user[sym1]); // 123 
+// console.log(user[sym1]); // 123 
 
 // ----------------------------------------
 // 2 ways to access an element of object 
