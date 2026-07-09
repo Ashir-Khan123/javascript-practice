@@ -17,15 +17,14 @@ const user = {
     lastLoggedIn : ["Monday" , "Friday"]
 }
 
-user.age = 21
-console.log(user);
-Object.freeze(user)
-user.age = 13
-console.log(user);
-
+// user.age = 21
+// console.log(user);
+// Object.freeze(user)
+// user.age = 13
+// console.log(user);
 
 // console.log(typeof user.sym1); // type string not symbol
-// console.log(user[sym1]); // 123 
+console.log(user[sym1]); // 123 
 
 // ----------------------------------------
 // 2 ways to access an element of object 
