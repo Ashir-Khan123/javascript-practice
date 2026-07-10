@@ -65,3 +65,19 @@
 
 // ++++++++++++++++++++++++++++++++++++++ Object part 2 +++++++++++++++++++++++++++++++++++
 
+// const user = new Object() // {} ---------> Singleton object (object constructors)
+// const userData = {} // ------------------> Non-singleton object (object literals)
+
+// userData.id = 101
+// userData.name = "Ahsan"
+// userData.gender = "male"
+
+// console.log(userData);
+// -------------------------
+
+// const arr1 = new Array()
+// console.log(arr1); // []
+
+// console.log(userData); // {}
+// console.log(userData.name); // undefined
+
