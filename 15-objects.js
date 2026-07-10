@@ -1,4 +1,5 @@
 // +++++++++++++++++++++++++++++++++++++++++++++ Object part 1 ++++++++++++++++++++++++++++++++++++++++++++++
+// object includes key-value pair
 
 // constuctor = singleton
 // Object.create
