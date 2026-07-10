@@ -6,16 +6,41 @@
 
 // let sym1 = Symbol("12345")
 
-const user = {
-    name : "Ashir",
-    [sym1] : "123",
-    "full name" : "Ashir khan",
-    age : 18,
-    location : "karachi",
-    email : "ashir@google.com",
-    isLoggedIn : false,
-    lastLoggedIn : ["Monday" , "Friday"]
-}
+// const user = {
+//     name : "Ashir",
+//     // [sym1] : "123",
+//     "full name" : "Ashir khan",
+//     age : 18,
+//     location : "karachi",
+//     email : "ashir@google.com",
+//     isLoggedIn : false,
+//     lastLoggedIn : ["Monday" , "Friday"]
+// }
+
+// Add function 
+// ------------------
+// user.greeting = function(){
+//     console.log(`Salam ${this["full name"]}`);
+// }
+// console.log(user.greeting());
+
+// -------------------------------------
+
+// // create/add
+// user.nationality = "pakistani"
+
+// read
+// console.log(user);
+
+// update
+// user.email = "ashir@youtube.com"
+// // console.log(user);
+
+//delete 
+// delete(user.location)
+// console.log(user);
+
+// --------------------------------------
 
 // user.age = 21
 // console.log(user);
