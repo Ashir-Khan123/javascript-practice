@@ -1,3 +1,5 @@
+// +++++++++++++++++++++++++++++++++++++++++++++ Object part 1 ++++++++++++++++++++++++++++++++++++++++++++++
+
 // constuctor = singleton
 // Object.create
 
@@ -60,3 +62,6 @@
 // console.log(user[0]); // undefined
 // 2) console.log(user["email"]); // ashir@google.com
 // console.log(user["full name"]); //   Ashir khan
+
+// ++++++++++++++++++++++++++++++++++++++ Object part 2 +++++++++++++++++++++++++++++++++++
+
