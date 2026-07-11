@@ -2,8 +2,7 @@
 // object includes key-value pair
 
 // constuctor = singleton
-
-console.log(Object.create({}));
+//Object.create
 
 
 // object literals
