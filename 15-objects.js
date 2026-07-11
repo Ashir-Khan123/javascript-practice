@@ -2,7 +2,9 @@
 // object includes key-value pair
 
 // constuctor = singleton
-// Object.create
+
+console.log(Object.create({}));
+
 
 // object literals
 // keys is treated as string by browser
