@@ -83,15 +83,22 @@
 // console.log(userData); // {}
 // console.log(userData.name); // undefined
 
-const userDetail = {
-    age : 20,
-    fullname : {
-        employeeFullname : "sameer",
-        userFullname : {
-            firstName : "Ashir",
-            lastName : "Khan"
-        }
-    }
-}
+// -----------------------------------------
 
-console.log(userDetail.fullname);
+// const userDetail = {
+//     age : 20,
+//     fullname : {
+//         employeeFullname : "sameer",
+//         userFullname : {
+//             firstName : "Ashir",
+//             lastName : "Khan"
+//         }
+//     }
+// }
+
+// console.log(userDetail.fullname.userFullname.firstName);  // Ashir ---------------> (Dot Notation)
+// console.log(userDetail["fullname"]["userFullname"]["firstName"]);  // Ashir ------> (Square Notation)
+
+// ---------------------------------------------------------------
+
+
