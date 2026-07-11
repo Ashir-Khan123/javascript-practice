@@ -82,3 +82,15 @@
 // console.log(userData); // {}
 // console.log(userData.name); // undefined
 
+const userDetail = {
+    age : 20,
+    fullname : {
+        employeeFullname : "sameer",
+        userFullname : {
+            firstName : "Ashir",
+            lastName : "Khan"
+        }
+    }
+}
+
+console.log(userDetail.fullname);
