@@ -235,5 +235,9 @@ let products = [
     }
 ];
 
+let searchId = 102;
 
+for(let i = 0 ; i < products.length ; i++){
+    
+}
 
