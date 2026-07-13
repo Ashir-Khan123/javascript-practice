@@ -48,7 +48,7 @@
 
 // user.age = 21
 // console.log(user);
-// Object.freeze(user)
+// Object.freeze(user) //  only object is freeze not nested object (shallow copy) 
 // user.age = 13
 // console.log(user);
 
@@ -101,9 +101,74 @@
 
 // ---------------------------------------------------------------
 
-const obj1 = {1: 'a' , 2 : 'b'}
-const obj2 = {3: 'c' , 4 : 'd'}
+// const obj1 = {1: 'a' , 2 : 'b'}
+// const obj2 = {3: 'c' , 4 : 'd'}
 
-// const obj3 = Object.assign(obj1 , obj2);
-const obj3 = {...obj1 , ...obj2}
-console.log(obj3);
+// // const obj3 = Object.assign({}, obj1 , obj2);
+// const obj3 = {...obj1 , ...obj2}
+// console.log(obj3);
+
+// ------------------------------------------------------
+
+// const ApiData = [
+//     {
+//         id : 1,
+//         name : "Ashir"
+//     },
+//     {
+//         id : 2,
+//         name : "Haseeb",
+//         fullname : {
+//             firstname : "Abdul",
+//             lastname : "Haseeb"
+//         }
+//     },
+//     {
+//         id : 3,
+//         name : "Taha",
+//         age : 10
+//     },
+//     {
+//         id : 4,
+//         name : "ghufran"
+//     },
+// ]
+
+// console.log(`ID : ${ApiData[1].id} and Name : ${ApiData[1].name}`);
+// console.log(Object.keys(ApiData[1])); // (2) ['id', 'name'] ---------> (output in array)
+// console.log(Object.values(ApiData[1])); // (3) [2, 'Haseeb', {…}] ---------> (output in array)
+// console.log(Object.entries(ApiData[1])); // Each key and value in array 
+
+// ---------------------------------------------------------
+
+// If asking about (Only keys)
+// console.log(ApiData[1].hasOwnProperty('name')); // true
+// console.log(ApiData[1].hasOwnProperty('Name')); // false
+// console.log(ApiData[2].hasOwnProperty('age')); // true
+
+// ------------------------------------------------------------
+
+let employees = [
+    {
+        name: "Ali",
+        salary: 45000
+    },
+    {
+        name: "Ahmed",
+        salary: 70000
+    },
+    {
+        name: "Usman",
+        salary: 90000
+    },
+    {
+        name: "Hamza",
+        salary: 55000
+    }
+];
+
+let largest = []
+for(let i = 0 ; i < employees.length ; i++){
+    console.log(employees[i].salary); 
+    
+}
