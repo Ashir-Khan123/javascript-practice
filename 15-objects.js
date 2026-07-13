@@ -217,27 +217,51 @@
 
 // -----------------------------------------------------------
 
-let products = [
+// let products = [
+//     {
+//         id: 101,
+//         name: "Laptop",
+//         price: 80000
+//     },
+//     {
+//         id: 102,
+//         name: "Mobile",
+//         price: 50000
+//     },
+//     {
+//         id: 103,
+//         name: "Keyboard",
+//         price: 5000
+//     }
+// ];
+
+// let searchId = 102;
+
+// let productId
+// for(let i = 0 ; i < products.length ; i++){
+//     productId = products[i].id
+//     if(productId == searchId){
+//         console.log(`Product Found`);
+//         console.log(`Name : ${products[i].name}, Price : ${products[i].price}`);
+//     }
+// }
+
+// -----------------------------------------------
+
+let cart = [
     {
-        id: 101,
-        name: "Laptop",
-        price: 80000
+        product: "Laptop",
+        price: 80000,
+        quantity: 1
     },
     {
-        id: 102,
-        name: "Mobile",
-        price: 50000
+        product: "Mouse",
+        price: 2000,
+        quantity: 2
     },
     {
-        id: 103,
-        name: "Keyboard",
-        price: 5000
+        product: "Keyboard",
+        price: 5000,
+        quantity: 1
     }
 ];
-
-let searchId = 102;
-
-for(let i = 0 ; i < products.length ; i++){
-    
-}
-
