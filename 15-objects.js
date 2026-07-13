@@ -148,27 +148,74 @@
 
 // ------------------------------------------------------------
 
-let employees = [
-    {
-        name: "Ali",
-        salary: 45000
-    },
-    {
-        name: "Ahmed",
-        salary: 70000
-    },
-    {
-        name: "Usman",
-        salary: 90000
-    },
-    {
-        name: "Hamza",
-        salary: 55000
-    }
-];
+// let employees = [
+//     {
+//         name: "Ali",
+//         salary: 45000
+//     },
+//     {
+//         name: "Ahmed",
+//         salary: 70000
+//     },
+//     {
+//         name: "Usman",
+//         salary: 90000
+//     },
+//     {
+//         name: "Hamza",
+//         salary: 55000
+//     }
+// ];
 
-let largest = []
-for(let i = 0 ; i < employees.length ; i++){
-    console.log(employees[i].salary); 
+// let largest = 0
+// let obj;
+// for(let i = 0 ; i < employees.length ; i++){ 
+//     if(employees[i].salary > largest){
+//         largest = employees[i].salary
+//         obj = employees[i]
+//     }
+// }
+// console.log(`Highest Salary : ${obj.name} ${obj.salary}`);
+
+// ---------------------------------------------------
+
+// let students = [
+//     {
+//         name: "Ali",
+//         marks: [80, 70, 90]
+//     },
+//     {
+//         name: "Ahmed",
+//         marks: [40, 50, 35]
+//     },
+//     {
+//         name: "Hamza",
+//         marks: [90, 95, 88]
+//     }
+// ];
+
+// for(let i = 0 ; i < students.length ; i++){
+//     let totalMarks = 0
+//     let status = ""
+//     let name = students[i].name
+//     let marks = students[i].marks
+//     let averageMarks = 0 
+//     
+//     for(let j = 0 ; j < marks.length ; j++){
+//         totalMarks += marks[j]   
+//         averageMarks = totalMarks / marks.length
+//     }
+
+//     averageMarks >= 50 ? status = "Pass" : status = "Fail"
     
-}
+// console.log(`Name : ${name}`);
+//     console.log(`Total Marks : ${totalMarks}`);
+//     console.log(`Average : ${averageMarks.toFixed()}`);
+//     console.log(`Status : ${status}`);
+//     console.log(`----------------------`);
+// }
+
+// -----------------------------------------------------------
+
+
+
