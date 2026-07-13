@@ -238,12 +238,23 @@
 // let searchId = 102;
 
 // let productId
+// let flag = false
+// let name;
+// let price = 0
 // for(let i = 0 ; i < products.length ; i++){
 //     productId = products[i].id
 //     if(productId == searchId){
-//         console.log(`Product Found`);
-//         console.log(`Name : ${products[i].name}, Price : ${products[i].price}`);
+//         flag = true
+//         name = products[i].name
+//         price = products[i].price
 //     }
+// }
+// if(flag){
+//     console.log(`Product Found`);
+//     console.log(`Name : ${name}, Price : ${price}`);
+// }
+// else{
+//     console.log(`Product Not Fount`);
 // }
 
 // -----------------------------------------------
@@ -285,4 +296,47 @@
 // console.log(`Cart total : ${cartTotal}`);
 
 // ---------------------------------------------------
+
+// let users = [
+//     {
+//         name: "Ali",
+//         city: "Karachi"
+//     },
+//     {
+//         name: "Ahmed",
+//         city: "Lahore"
+//     },
+//     {
+//         name: "Hamza",
+//         city: "Karachi"
+//     },
+//     {
+//         name: "Usman",
+//         city: "Islamabad"
+//     },
+//     {
+//         name: "Ayan",
+//         city: "Karachi"
+//     },
+//     {
+//         name: "Bilal",
+//         city: "Lahore"
+//     }
+// ];
+
+// let city
+// let newArr = []
+// for(let i = 0 ; i < users.length ; i++){
+//     city = users[i].city
+//     if(!newArr.includes(city)){
+//         let count = 0
+//         for(let j = 0 ; j < users.length ; j++){
+//             if(city == users[j].city){
+//                 count += 1
+//             }
+//         }
+//         newArr.push(city)
+//         console.log(`${city} : ${count} users`);
+//     }
+// }
 
