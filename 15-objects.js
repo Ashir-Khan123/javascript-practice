@@ -248,20 +248,41 @@
 
 // -----------------------------------------------
 
-let cart = [
-    {
-        product: "Laptop",
-        price: 80000,
-        quantity: 1
-    },
-    {
-        product: "Mouse",
-        price: 2000,
-        quantity: 2
-    },
-    {
-        product: "Keyboard",
-        price: 5000,
-        quantity: 1
-    }
-];
+// let cart = [
+//     {
+//         product: "Laptop",
+//         price: 80000,
+//         quantity: 1
+//     },
+//     {
+//         product: "Mouse",
+//         price: 2000,
+//         quantity: 2
+//     },
+//     {
+//         product: "Keyboard",
+//         price: 5000,
+//         quantity: 1
+//     }
+// ];
+
+// let product;
+// let price = 0
+// let quantity = 0
+// let subtotal = 0
+// let cartTotal = 0
+
+// for(let i = 0 ; i < cart.length ; i++){
+    
+//     product = cart[i].product
+//     price = cart[i].price
+//     quantity = cart[i].quantity
+//     subtotal = price * quantity
+//     cartTotal += subtotal
+    
+//     console.log(`${product} subtotal : ${subtotal}`);
+// }
+// console.log(`Cart total : ${cartTotal}`);
+
+// ---------------------------------------------------
+
