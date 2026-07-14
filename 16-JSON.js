@@ -104,3 +104,70 @@
 
 // -----------------------------------
 
+// const user = {
+//     name: "Ashir",
+//     age: undefined,
+//     greet: function(){
+//         return "Hello";
+//     }
+// };
+
+// const data = JSON.stringify(user);
+
+// console.log(data); // just name print 
+
+// -------------------------------------
+
+// Steps:
+// Cart ko localStorage mein "cart" key se store karo.
+// localStorage se data nikalo.
+// JSON parse karo.
+// Loop lagao.
+// Complete cart total calculate karo.
+
+// const cart = [
+//     {
+//         product: "Laptop",
+//         price: 80000,
+//         quantity: 1
+//     },
+//     {
+//         product: "Mouse",
+//         price: 2000,
+//         quantity: 2
+//     }
+// ];
+
+// localStorage.setItem(
+//     "cart",
+//     JSON.stringify(cart)
+// )
+
+// const value = localStorage.getItem(
+//     "cart"
+// )
+
+// localStorage.removeItem("cart")
+
+// const objVal = JSON.parse(value)
+
+// let price = 0
+// let subtotal = 0
+// for(let i = 0 ; i < objVal.length ; i++){
+//     price = objVal[i].price
+//     subtotal += price * objVal[i].quantity
+// }
+// console.log(`Cart total : ${subtotal}`);
+
+// ----------------------------------------------------------
+// console.log(undefined + 8000); // NaN -------> type = number
+// -----------------------------------------------------------
+
+// JSON.stringify([
+//     undefined,
+//     function(){}
+// ]) 
+// Output -----------------------> [null,null]
+
+// ---------------------------
+
