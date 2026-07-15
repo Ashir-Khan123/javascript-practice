@@ -108,3 +108,22 @@
 // }
 // console.log(`${count} numeric values`);
 
+// -----------------------------------
+
+// Map
+
+// duplicate value not override and not show (it is unique)
+
+// let map = new Map()
+// map.set("Pk" , "Pakistan")
+// map.set("Fr" , "france")
+// map.set("Eng" , "Engand")
+
+// console.log(map);
+// for(let [key , val] of map){
+//     console.log(key , ":" , val);
+// }
+
+// for(let key in map){
+//     console.log(key); // map not iterable
+// }
