@@ -68,17 +68,29 @@
 
 // -----------------------------------------------
 
-let arr = ["js" , "py" , "java" , "cpp"]
+// let arr = ["js" , "py" , "java" , "cpp"]
+
+// forEach return undefined
 
 // let result = arr.forEach((val) => {
 //     return val
+//     console.log(val);
 // })
 
 // console.log(result);
 
 // ---------------------------------------
 
+// map() ---> returns/transform a new array 
 
+// let result = arr.map((val) => {
+    // return val
+    // console.log(val);
+// })
+
+// console.log(result);
+
+// -----------------------------------------
 
 
 
