@@ -92,22 +92,24 @@
 
 // -----------------------------------------
 
-let languages = [10,20,30]
+// Custom Map
 
-function customMap(arr, callback){
-    let newArr = []
-    for(let i = 0 ; i < arr.length ; i++){
-        let result = callback(arr[i])
-        newArr.push(result)
-    }
-    return newArr
-}
+// let languages = [10,20,30]
 
-let result = customMap(languages , (v) => {
-    return v * 2
-})
+// function customMap(arr, callback){
+//     let newArr = []
+//     for(let i = 0 ; i < arr.length ; i++){
+//         let result = callback(arr[i])
+//         newArr.push(result)
+//     }
+//     return newArr
+// }
 
-console.log(result);
+// let result = customMap(languages , (v) => {
+//     return v * 2
+// })
+
+// console.log(result);
 
 
 
