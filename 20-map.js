@@ -1,8 +1,11 @@
 // map() ---> returns/transform a new array 
+// condition in return gives boolean output like true or false and same array pass 
 
-// let result = arr.map((val) => {
-    // return val
-    // console.log(val);
+// let arr = ["js" , "java" , "cpp" , "py"]
+
+// let result = arr.map((val , i , arr) => {
+    // return val , arr ,i // it return only arr because it overrides value and return only last value on RHS
+    // console.log(val , i , arr);
 // })
 
 // console.log(result);
