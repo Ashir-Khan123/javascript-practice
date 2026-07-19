@@ -82,4 +82,19 @@
 
 // customReduce
 
+// let nums = [ 1 , 2 , 4 , 5 , 6]
 
+// function customReduce(arr , cb , initialVal){
+//     let acc = initialVal
+//     for(let i = 0 ; i < arr.length ; i++){
+//         let val = arr[i]
+//         acc = cb(acc , val)
+//     }
+//     return acc
+// }
+
+// let result = customReduce(nums , (acc, val) => {
+//     return acc + val
+// }, 0)
+
+// console.log(`Result : ${result}`);
