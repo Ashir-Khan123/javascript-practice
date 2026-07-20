@@ -1,4 +1,20 @@
-let arr = [2 , 2 , 3 , 4 , 5 , 5 , 7]
+// ES6 Topics
+
+// Default Parameters
+// Rest Operator
+// Spread Operator
+// Array Destructuring
+// Object Destructuring
+// Optional Chaining (?.)
+// Nullish Coalescing (??)
+// Set
+// Map (Data Structure)
+
+// ----------------------------------------
+
+// Set
+
+// let arr = [2 , 2 , 3 , 4 , 5 , 5 , 7]
 
 // let set = new Set(arr)
 // console.log(set)
@@ -22,3 +38,16 @@ let arr = [2 , 2 , 3 , 4 , 5 , 5 , 7]
 
 // ----------------------------
 
+// Map (Data Structure)  // ----> Key value in quotations 
+
+// let map = new Map()
+
+// map.set('name' , "Ashir")
+// map.set("age" , "22")
+// map.set("gender" , "male")
+
+// map.delete("gender") 
+
+// console.log(map.get("age")); // 22
+
+// console.log(map)
