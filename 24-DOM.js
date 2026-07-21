@@ -137,3 +137,53 @@
 //     v.style.color = "orange"
 // })
 
+
+// --------------------------------------------
+//  Create New Element in DOM 
+// -------------------------------------------
+
+// const parent = document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[1].innerText);
+
+// for(i = 0 ; i < parent.children.length ; i++){
+//     console.log(parent.children[i].innerHTML);
+// }
+
+// parent.children[1].style.color = "orange"
+// parent.children[3].style.color = "red"
+
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+// const dayOne = document.querySelector('.day')
+// console.log(dayOne);
+// console.log(dayOne.parentElement);
+// console.log(dayOne.nextElementSibling);
+
+// console.log("Nodes : " , parent.childNodes); // 11
+
+// -----------------------------------------
+// creating element in DOM
+// -----------------------------------------
+
+// const div = document.createElement('div')
+// // console.log(div);
+// // div.className = 'main'
+// // div.id = Math.round(Math.random() * 10 + 1)
+// // div.setAttribute('title' , 'generate title')
+
+// // div.innerText = 'Hello world'
+// // OR
+// const addText = document.createTextNode("Hello word")
+// div.appendChild(addText)
+
+// const display = document.body.appendChild(div)
+// display.style.color = "black"
+// display.style.backgroundColor = "orange"
+// display.style.padding = "10px"
+
+//  -------------------------------
+// Edit remove
+
